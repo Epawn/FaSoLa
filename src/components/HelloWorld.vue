@@ -23,7 +23,9 @@ export default {
         let goods1 = document.getElementById("product_319464");
         let goods2 = document.getElementById("product_319468");
         let goods3 = document.getElementById("product_319470");
-        console.log(goods1.getElementsByClassName("manual_stock_out").length);
+        if(goods1.getElementsByClassName("cart").length>0){
+          
+        }
       })
       .catch(function (error) {
         console.log(error);
